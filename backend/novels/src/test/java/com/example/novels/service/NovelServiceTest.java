@@ -9,7 +9,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import com.example.novels.novel.dto.NovelDTO;
 import com.example.novels.novel.service.NovelService;
 
-@SpringBootTest(properties = "spring.ai.openai.api-key=sk-")
+@SpringBootTest
 public class NovelServiceTest {
 
     @Autowired
